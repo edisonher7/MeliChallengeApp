@@ -20,6 +20,8 @@
 		E986F96F27C1BB4500D59C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E986F96E27C1BB4500D59C93 /* Assets.xcassets */; };
 		E986F97227C1BB4500D59C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E986F97027C1BB4500D59C93 /* LaunchScreen.storyboard */; };
 		E986F99F27C1C98C00D59C93 /* RsProductsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E986F99E27C1C98C00D59C93 /* RsProductsList.swift */; };
+		E999F80027CD87FB0083FF23 /* ProductDetailViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E999F7FE27CD87FB0083FF23 /* ProductDetailViewSpy.swift */; };
+		E999F80127CD87FB0083FF23 /* ProductDetailPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E999F7FF27CD87FB0083FF23 /* ProductDetailPresenterTest.swift */; };
 		E9C4F38427C3137A007A7517 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4F38327C3137A007A7517 /* ProductItem.swift */; };
 		E9C4F38727C324BF007A7517 /* ProductsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4F38627C324BF007A7517 /* ProductsListPresenter.swift */; };
 		E9C4F38B27C32515007A7517 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4F38A27C32515007A7517 /* BasePresenter.swift */; };
@@ -73,6 +75,8 @@
 		E986F97E27C1BB4600D59C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E986F98327C1BB4600D59C93 /* MeliChallengeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeliChallengeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E986F99E27C1C98C00D59C93 /* RsProductsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsProductsList.swift; sourceTree = "<group>"; };
+		E999F7FE27CD87FB0083FF23 /* ProductDetailViewSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewSpy.swift; sourceTree = "<group>"; };
+		E999F7FF27CD87FB0083FF23 /* ProductDetailPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailPresenterTest.swift; sourceTree = "<group>"; };
 		E9A3C03872B6E2C4C580A070 /* Pods-MeliChallengeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliChallengeApp.release.xcconfig"; path = "Target Support Files/Pods-MeliChallengeApp/Pods-MeliChallengeApp.release.xcconfig"; sourceTree = "<group>"; };
 		E9C4F38327C3137A007A7517 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 		E9C4F38627C324BF007A7517 /* ProductsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListPresenter.swift; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 		E986F97B27C1BB4600D59C93 /* MeliChallengeAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				E999F7FF27CD87FB0083FF23 /* ProductDetailPresenterTest.swift */,
+				E999F7FE27CD87FB0083FF23 /* ProductDetailViewSpy.swift */,
 				E986F97E27C1BB4600D59C93 /* Info.plist */,
 				E93BE81B27C9E7B0001594A2 /* ProductListPresentertest.swift */,
 				E93BE81D27C9EB46001594A2 /* ProductsViewSpy.swift */,
@@ -471,6 +477,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93BE81C27C9E7B0001594A2 /* ProductListPresentertest.swift in Sources */,
+				E999F80027CD87FB0083FF23 /* ProductDetailViewSpy.swift in Sources */,
+				E999F80127CD87FB0083FF23 /* ProductDetailPresenterTest.swift in Sources */,
 				E93BE81E27C9EB46001594A2 /* ProductsViewSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
