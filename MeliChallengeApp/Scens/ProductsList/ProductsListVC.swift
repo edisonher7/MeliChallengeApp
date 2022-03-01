@@ -28,9 +28,7 @@ class ProductsListVC: BaseVC<ProductsListPresenter> {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.tableFooterView = UIView()
-        presenter?.doOnStart(keyWord: "motorola")
-        
+        self.tableView.tableFooterView = UIView()        
         searchBar.delegate = self
 
     }
